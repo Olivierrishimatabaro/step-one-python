@@ -1,0 +1,10 @@
+# My first Python program
+# Author: OLIVIER MATABARO
+
+name = "OLIVIER MATABARO"
+profile = "Beginner Front-End Developer"
+
+print("Hello,")
+print("My name is", name + ".")
+print("I am a", profile + ".")
+print("This is my first Python code published on GitHub.")
