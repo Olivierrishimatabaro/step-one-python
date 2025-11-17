@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Olivier Rishi Matabaro",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://pbs.twimg.com/media/G5yJd_qW0AAKkVB?format=jpg&name=medium",
+      "sha256": "b0255ca1b0cfeb9dc1893fff1adde126cbf71cd0a1741956dc356a56c37e4754"
+    },
+    "motivations": "I want to become a DRep to give my community a clear voice in Cardano’s governance. My experience in community management, event organization, education, and advocacy has shown me how important representation is for people who are passionate but often unheard. I want to use my skills, leadership, and dedication to guide voters, explain governance decisions, and contribute to a stronger, more inclusive ecosystem.\n",
+    "objectives": "My objective as a DRep is to represent my community with integrity, clarity, and responsibility. I aim to support proposals that bring real value, strengthen governance, improve accessibility, and drive meaningful adoption of Cardano—especially in emerging regions. I am committed to ensuring that every decision reflects the long-term health and sustainability of the ecosystem.\n",
+    "paymentAddress": "addr1qxn6q4pj34utsalhs6ppjfl9fcp5h4rmvw6z594nuf6c8leymj34m5yg4hfcqcdqz9emf2avarj09h2atx0an6vvjjasw0004u",
+    "qualifications": "- Community Manager with several years of experience\n- Active leader in the African blockchain ecosystem\n- Ambassador in multiple Web3 projects\n- Experience in organizing blockchain workshops and local events\n- Strong understanding of governance principles, decentralization, and community engagement\n- Skilled in communication, translation, and educational outreach\n- Committed and trusted member of the Cardano community\n",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "this link is for my X",
+        "uri": "https://x.com/ORishimatabaro/status/1989617546849652943?s=20"
+      },
+      {
+        "@type": "Identity",
+        "label": "my GitHub",
+        "uri": "https://github.com/Olivierrishimatabaro"
+      }
+    ]
+  }
+}
