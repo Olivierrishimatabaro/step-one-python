@@ -1,0 +1,14 @@
+# Step One in Python
+# Mon tout premier programme Python
+
+def main():
+    name = input("Quel est ton nom ? ")
+    age = input("Quel âge as-tu ? ")
+
+    print("\n--- Résultat ---")
+    print(f"Bonjour {name} 👋")
+    print(f"Tu as {age} ans.")
+    print("Bienvenue dans Step One in Python 🚀")
+
+if __name__ == "__main__":
+    main()
