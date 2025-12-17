@@ -1,0 +1,100 @@
+# 🐍 Step One in Python
+
+## 📌 Description
+
+**Step One in Python** est un dépôt d’initiation destiné aux débutants qui souhaitent faire leurs premiers pas en Python. Ce projet couvre les bases essentielles du langage à travers des exemples simples, clairs et pratiques.
+
+L’objectif est d’apprendre **progressivement**, étape par étape, en comprenant la logique plutôt que de simplement copier du code.
+
+---
+
+## 🎯 Objectifs du projet
+
+* Comprendre les bases du langage Python
+* Apprendre à écrire et exécuter un script Python
+* Se familiariser avec la logique de programmation
+* Construire une base solide avant des projets plus avancés
+
+---
+
+## 🧠 Contenu du dépôt
+
+Ce dépôt peut inclure :
+
+* Variables et types de données
+* Conditions (`if`, `else`)
+* Boucles (`for`, `while`)
+* Fonctions
+* Entrées et sorties (`input`, `print`)
+* Exercices simples
+
+---
+
+## 🛠️ Prérequis
+
+Avant de commencer, assure-toi d’avoir :
+
+* Python 3 installé sur ton ordinateur
+* Un éditeur de code (VS Code recommandé)
+* Des notions de base en informatique (facultatif)
+
+---
+
+## ▶️ Comment exécuter un fichier Python
+
+1. Ouvre un terminal dans le dossier du projet
+2. Exécute la commande :
+
+```bash
+python nom_du_fichier.py
+```
+
+---
+
+## 📂 Structure possible du projet
+
+```text
+step-one-in-python/
+│
+├── basics/
+│   ├── variables.py
+│   ├── conditions.py
+│   └── loops.py
+│
+├── functions/
+│   └── functions_intro.py
+│
+├── exercises/
+│   └── exercise1.py
+│
+└── README.md
+```
+
+---
+
+## 🚀 Pour qui est ce projet ?
+
+* Débutants en programmation
+* Étudiants
+* Personnes souhaitant apprendre Python à partir de zéro
+
+---
+
+## 👤 Auteur
+
+**Olivier Rishi Matabaro**
+Community builder • Blockchain & Tech Enthusiast
+
+---
+
+## 📜 Licence
+
+Ce projet est libre d’utilisation à des fins éducatives.
+
+---
+
+## 🌱 Motivation
+
+> *Chaque expert a commencé par une première ligne de code.*
+
+Bonne exploration et bon apprentissage 🚀
