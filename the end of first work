@@ -1,0 +1,17 @@
+# Step One in Python
+# Simple message display script
+
+def main():
+    print("Hey Fam!\n")
+    print("@Catalyst_onX")
+    print("evaluations are coming to an end\n")
+
+    print("In reviewing proposals, which criterion do you personally prioritize?")
+    print("And which one is your biggest challenge?\n")
+
+    print("🔹 Positive impact on the Cardano ecosystem")
+    print("🔹 Feasibility and team skills")
+    print("🔹 Value for money")
+
+if __name__ == "__main__":
+    main()
