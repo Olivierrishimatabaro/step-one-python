@@ -1,0 +1,14 @@
+def message_fin_annee(nom):
+    print("🎄✨ Joyeux Noël et Bonne Fin d’Année ✨🎄")
+    print()
+    print(f"Cher/Chère {nom},")
+    print("Que cette période de Noël t’apporte paix, joie et amour.")
+    print("Que la nouvelle année soit remplie de réussite,")
+    print("de santé, de bénédictions et de nouvelles opportunités.")
+    print()
+    print("Continue de croire en tes rêves et de travailler avec passion.")
+    print("Meilleurs vœux pour l’année à venir ! 🙏✨")
+
+
+# Exemple d'utilisation
+message_fin_annee("Olivier")
